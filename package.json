@@ -1,0 +1,36 @@
+{
+  "name": "flush-queue",
+  "version": "1.0.0",
+  "description": "Queue a set of functions to be executed synchronously",
+  "main": "./src",
+  "scripts": {
+    "build": "babel ./src -d ./lib --optional runtime",
+    "test": "babel-tape-runner test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendrucker/flush-queue.git"
+  },
+  "keywords": [
+    "flush",
+    "queue",
+    "deferred",
+    "unit",
+    "testing"
+  ],
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bendrucker/flush-queue/issues"
+  },
+  "homepage": "https://github.com/bendrucker/flush-queue#readme",
+  "dependencies": {
+    "babel-runtime": "~5.1.13"
+  },
+  "devDependencies": {
+    "babel": "~5.1.13",
+    "babel-tape-runner": "~1.1.0",
+    "sinon": "~1.14.1",
+    "tape": "~4.0.0"
+  }
+}
