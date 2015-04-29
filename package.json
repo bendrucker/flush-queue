@@ -4,7 +4,7 @@
   "description": "Queue a set of functions to be executed synchronously",
   "main": "./src",
   "scripts": {
-    "build": "babel ./src -d ./lib --optional runtime",
+    "build": "babel ./src -d ./lib",
     "test": "babel-tape-runner test/*.js"
   },
   "repository": {
