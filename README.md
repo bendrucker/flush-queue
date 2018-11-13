@@ -1,4 +1,4 @@
-# flush-queue [![Build Status](https://travis-ci.org/bendrucker/flush-queue.svg?branch=master)](https://travis-ci.org/bendrucker/flush-queue)
+# flush-queue [![Build Status](https://travis-ci.org/bendrucker/flush-queue.svg?branch=master)](https://travis-ci.org/bendrucker/flush-queue) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/flush-queue.svg)](https://greenkeeper.io/)
 Queue a set of functions to be executed synchronously
 
 ## Installing
